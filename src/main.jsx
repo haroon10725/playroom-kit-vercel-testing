@@ -7,8 +7,6 @@ import { insertCoin } from 'playroomkit'
 const root = createRoot(document.getElementById('root'))
 
 async function start() {
-  await insertCoin()
-
   root.render(
     <StrictMode>
       <App />
